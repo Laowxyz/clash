@@ -1,1 +1,68 @@
 
+﻿proxies:
+  - {name: 50409, server: 109.74.194.189, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: 50410, server: 38.143.66.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50411, server: 173.230.145.10, port: 11013, type: vmess, uuid: e4c9fa78-bd10-43b5-c54b-a746c375365b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: grpc, servername: 173.230.145.10, grpc-opts: {grpc-service-name: /}, udp: true}
+  - {name: 50412, server: jmcm.rokishi.cyou, port: 10085, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458, udp: true}
+  - {name: 50413, server: tw004.liangxinyun.xyz, port: 8021, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: tw004.liangxinyun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 50414, server: apple137.hfnote.top, port: 9025, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple137.hfnote.top}, udp: true}
+  - {name: 50415, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 50416, server: zhuzhu12.com, port: 15989, type: vmess, uuid: ace51efb-2fea-3b11-8470-0c9cdcf83590, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}, udp: true}
+  - {name: 50417, server: hzcm-yp-pop-01.liangxinyun.xyz, port: 5202, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: hzcm-yp-pop-01.liangxinyun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 50418, server: 66.42.103.1, port: 50890, type: vmess, uuid: 11365a2e-6938-11ec-9b3d-560003c3fd49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /5YpZGAg8/, ws-headers: {Host: 66.42.103.1}, udp: true}
+  - {name: 50419, server: shcn2-06b.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 50420, server: 62.210.209.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 50421, server: 38.91.102.96, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50422, server: 178.62.224.119, port: 8888, type: vmess, uuid: 125c98dd-e482-445e-9eb6-59ddeef286c6, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 178.62.224.119}, udp: true}
+  - {name: 50423, server: abnode08.makegamegoal.com, port: 8443, type: trojan, password: 4e234754-49ce-4ed5-b369-2c82e5615497, sni: abnode08.makegamegoal.com, skip-cert-verify: true, udp: true}
+  - {name: 50424, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL, udp: true}
+  - {name: 50425, server: 217.138.206.98, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: kGm85U8ewgPXbKr5LGxc, udp: true}
+  - {name: 50426, server: 129.159.36.48, port: 9999, type: vmess, uuid: becdc856-4b46-4a9b-82cb-9fe3537d62c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 50427, server: apple93.hfnote.top, port: 9093, type: vmess, uuid: 873dafce-5dd7-36b5-b648-46fc267d3e2e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: apple93.hfnote.top}, udp: true}
+  - {name: 50428, server: 188.214.125.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Zq4srheW4eeqMfGeWMTG, udp: true}
+  - {name: 50429, server: 172.67.197.254, port: 443, type: vmess, uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /bb2b34a1, ws-headers: {Host: www.ltzs.buzz}, udp: true}
+  - {name: 50430, server: jmcm.rokishi.cyou, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: a9616a54-5409-42df-822f-f412e46c2458, udp: true}
+  - {name: 50431, server: 62.210.209.50, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 50432, server: 178.62.224.119, port: 8888, type: vmess, uuid: e07f253f-9aab-4e75-9629-800abb741e51, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 178.62.224.119}, udp: true}
+  - {name: 50433, server: 62.210.209.50, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 50434, server: sp.xmsj.reimu.ltd, port: 5100, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: sp.xmsj.reimu.ltd, skip-cert-verify: true, udp: true}
+  - {name: 50435, server: jp-1.piyun.team, port: 666, type: trojan, password: 9dae20d6-7416-4215-8838-c6ffd6555d4a, sni: jp-1.piyun.team, skip-cert-verify: true, udp: true}
+  - {name: 50436, server: abnode16.makegamegoal.com, port: 8443, type: trojan, password: 4e234754-49ce-4ed5-b369-2c82e5615497, sni: abnode16.makegamegoal.com, skip-cert-verify: true, udp: true}
+  - {name: 50437, server: 62.210.209.50, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 50438, server: 0750-s1.cm.liangxinyun.xyz, port: 5801, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: 0750-s1.cm.liangxinyun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 50439, server: iesei1ei.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}, udp: true}
+  - {name: 50440, server: hzcm-yp-pop-01.liangxinyun.xyz, port: 5203, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: hzcm-yp-pop-01.liangxinyun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 50441, server: 62.210.209.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50442, server: 62.210.209.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 50443, server: sg2.verypinknipple.xyz, port: 80, type: vmess, uuid: 14183762-5839-35d4-b9ac-be5f708f1888, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.microsoft.com}, udp: true}
+  - {name: 50444, server: 38.91.102.96, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 50445, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 50446, server: 178.62.224.119, port: 8888, type: vmess, uuid: 4eacd56e-19c5-438b-bba6-d7dd2c91de77, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 178.62.224.119}, udp: true}
+  - {name: 50447, server: 129.152.21.141, port: 21888, type: vmess, uuid: 125c98dd-e482-445e-9eb6-59ddeef286c6, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.152.21.141}, udp: true}
+  - {name: 50448, server: 89.31.127.151, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: 50449, server: 62.210.209.50, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50450, server: 62.210.209.50, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 50451, server: 89.31.127.151, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: 50452, server: 38.91.102.86, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 50453, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 50454, server: iepl.inboard.soloxxy.com, port: 5003, type: trojan, password: 28cbaf4f-b8d0-376b-8168-920a6c155673, sni: iepl.inboard.soloxxy.com, skip-cert-verify: true, udp: true}
+  - {name: 50455, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 50456, server: 62.210.209.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 50457, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 208.98.48.2}, udp: true}
+  - {name: 50458, server: shcu01.iplc188.com, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 50459, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 50460, server: zhuzhu12.com, port: 15989, type: vmess, uuid: a94bf6de-b33d-3d5a-ac5b-8594be4727c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zz, ws-headers: {Host: zhuzhu12.com}, udp: true}
+  - {name: 50461, server: abnode12.makegamegoal.com, port: 8443, type: trojan, password: 4e234754-49ce-4ed5-b369-2c82e5615497, sni: abnode12.makegamegoal.com, skip-cert-verify: true, udp: true}
+  - {name: 50462, server: 117.50.106.86, port: 3389, type: trojan, password: edf497f40f71aeeb, skip-cert-verify: true, udp: true}
+  - {name: 50463, server: 62.210.209.50, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 50464, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 50465, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: 50466, server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 50467, server: 62.210.209.50, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 50468, server: 129.152.21.141, port: 21888, type: vmess, uuid: e07f253f-9aab-4e75-9629-800abb741e51, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.152.21.141}, udp: true}
+  - {name: 50469, server: fr-am1-4.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: X3LKnwp5C, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 50470, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 50471, server: bb.shangou.tk, port: 13333, type: vmess, uuid: 358a482f-856e-47a7-c61d-f4574cef2e63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /YunshangDrizi, ws-headers: {Host: hidden-glitter-7bb9.xcxcadc.workers.dev}, udp: true}
+  - {name: 50472, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}, udp: true}
+  - {name: 50473, server: pr1.mooncloud.bike, port: 8443, type: vmess, uuid: 79fedd93-e758-4655-83ed-574f4afe2a04, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pr1.mooncloud.bike}, udp: true}
+  - {name: 50474, server: hgchgc1.yyyywe.top, port: 10551, type: vmess, uuid: e07f253f-9aab-4e75-9629-800abb741e51, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hgchgc1.yyyywe.top}, udp: true}
